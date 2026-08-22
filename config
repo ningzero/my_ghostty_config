@@ -1,0 +1,6 @@
+# Quick terminal global hotkey
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+
+theme = Farmhouse Light
+font-family = JetBrains Mono
+font-size = 14
