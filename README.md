@@ -144,4 +144,4 @@ ssh prod-api
 另外记住一个关键点：hs.task.new() 不适合直接运行 fzf，因为它没有交互式 TTY；这里通过 AppleScript 在 Ghostty 新 Tab 的 terminal 中执行脚本，所以 fzf 才能正常工作。
 
 
-6.也可以直接使用https://github.com/trzsz/trzsz-ssh，这样无需 fzf，~/bin/ghostty-ssh脚本改为直接启动tssh即可
+6.也可以直接使用`https://github.com/trzsz/trzsz-ssh`，这样无需`fzf`，`~/bin/ghostty-ssh`脚本改为直接启动`tssh`即可
